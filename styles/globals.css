@@ -1,0 +1,9 @@
+:root {
+    font-family: "Vazir", Inter, system, Avatar, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+body {
+    background-color: #f7f8f8;
+    direction: rtl;
+}

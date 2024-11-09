@@ -1,0 +1,156 @@
+.body {
+  width: 1140px;
+  height: 737px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.search span {
+  position: absolute;
+  top: 25%;
+  color: #888;
+  font-size: 23px;
+  margin-right: 10px;
+}
+.search input {
+  width: 100%;
+  height: 30px;
+  padding: 10px 40px 10px 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 18px;
+  background-color: #fff;
+  outline: none;
+  font-family: "Vazir";
+}
+
+.search input::placeholder {
+  color: #aaa;
+  text-align: right;
+}
+
+.manage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.manage_product {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+
+.manage_product h2 {
+  font-size: 20px;
+  color: #333;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  font-family: "Vazir";
+}
+
+.manage_product span {
+  color: #888;
+  font-size: 20px;
+  border: 2px solid;
+  height: 22px;
+  border-radius: 6px;
+}
+
+.add_product button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Vazir";
+}
+
+.add_product button:hover {
+  background-color: #2563eb;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-family: "Vazir";
+}
+
+.table thead th {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 12px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.table thead th:first-child {
+  border-top-right-radius: 15px;
+}
+.table thead th:last-child {
+  border-top-left-radius: 15px;
+}
+
+.table tbody {
+  background-color: #fff;
+}
+
+.table tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: right;
+  color: #555;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f5f9;
+}
+
+.edit,
+.trash {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.edit:hover {
+  background-color: #e0f7fa;
+  color: #00bcd4;
+}
+
+.trash:hover {
+  background-color: #ffebee;
+  color: #f44336;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #f1f1f1;
+  border: none;
+  margin: 0 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.pagination button.active {
+  background-color: #3b82f6;
+  color: white;
+}
